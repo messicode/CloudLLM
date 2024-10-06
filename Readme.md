@@ -79,13 +79,8 @@ Contributions are welcome! Please fork the repository and submit pull requests w
 
 This project is licensed under the [MIT License](https://github.com/messicode/Distributed_Systems/blob/master/LICENSE.txt). Feel free to use, modify, and distribute it as per the license terms.
 
-## References
-
-- 'Distributed Algorithms-An Intuitive Approach (2nd edition) by Wan Fokkink' was heavily referred to implement this algorithm.
-- [NetGameSim](https://github.com/0x1DOCD00D/NetGameSim) graph simulator by Mark Grechanik was used to generate the input .dot files.
-- These simulations [Ref 1](https://github.com/sarangsawant/BankingApplication-Chandy-Lamport-Snapshot) and [Ref2](https://github.com/nrasadi/global-state-snapshot) were referred to understand the actual working of the algorithm in a distributed setting.
-
+## YOUTUBE DEMO
+My video
 ## NOTE
 
 - This project was successfully run on Windows 10 using command line
-- Every attempt is made to keep this system decentralized
