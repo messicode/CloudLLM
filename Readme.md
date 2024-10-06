@@ -50,36 +50,25 @@ project-root/
 
 ### Running the Application locally
 
-1. **Clone this repository**: ```git clone https://github.com/messicode/Distributed_Systems.git```
+1. **Clone this repository**: ```[My Repo](https://github.com/messicode/CloudLLM/)```
 
 2. **Navigate to the root directory**:
 ~~~
-cd /path/to/root/folder/LaiYang/
+cd /path/to/root/folder/
 ~~~
-3. **Build the Application**: ``` sbt compile ```
-4. **Run the Application**: ```sbt run```
-5. **Detailed output**: Output commands (commented) are provided to see other type of messages but by default only snapshot at each process are displayed.
-6. **Logging**: If logs are needed in a .txt file or cmd doesn't display all the output (due to buffer limits) please use : ``` sbt run > file_name.txt ``` which will create a file in root directory.
-7. **Input variations**: Different input .dot files are already placed in the root folder which can be run by modifying the name in ```val neighborMap = readNeighborMap("neighbors50.dot")``` line. Just replace the file_name with the input files.
+3. **Build the Application**: ``` sbt clean compile assembly ```
+4. **Run the Application**: ```hadoop <Jar file name.jar> <Main class name>```
 
 ## Result
 
 A sample output of the default execution with a distributed system of 50 processes should look like this:
 ```
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-15] INFO Main$ -- ------Process 0 is initiating Global snapshot---------------------------
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-15] INFO Process$ -- Snapshot at Process 0 - Balance: 1400
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-15] INFO Process$ -- In-transit messages at Process 0: BasicMessage(50,false,Actor[akka://MainSystem/user/Process0#-1189977513],1611919085)
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-15] INFO Process$ -- Snapshot at Process 1 - Balance: 1350
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-15] INFO Process$ -- In-transit messages at Process 1: BasicMessage(50,false,Actor[akka://MainSystem/user/Process1#1374816528],-147024887)
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-9] INFO Process$ -- Snapshot at Process 2 - Balance: 1300
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-9] INFO Process$ -- In-transit messages at Process 2: BasicMessage(50,false,Actor[akka://MainSystem/user/Process2#334153570],522518737)
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-9] INFO Process$ -- Snapshot at Process 5 - Balance: 1300
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-9] INFO Process$ -- In-transit messages at Process 5: BasicMessage(50,false,Actor[akka://MainSystem/user/Process5#597214855],2072585345)
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-9] INFO Process$ -- Snapshot at Process 3 - Balance: 1350
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-9] INFO Process$ -- In-transit messages at Process 3: BasicMessage(50,false,Actor[akka://MainSystem/user/Process3#1532376064],-1795248733)
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-9] INFO Process$ -- Snapshot at Process 4 - Balance: 1300
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-9] INFO Process$ -- In-transit messages at Process 4: BasicMessage(50,false,Actor[akka://MainSystem/user/Process4#-816355357],1641078167)
-21:50:29.977 [MainSystem-akka.actor.default-dispatcher-9] INFO Main$ -- All processes have completed their snapshot, ready for next snapshot.
+appoint, 11933	3
+appointed, 71216	4
+appointment, 52201	2
+appointments, 11933, 1392	2
+bears, 391, 15750, 291	1
+
 ```
 
 
