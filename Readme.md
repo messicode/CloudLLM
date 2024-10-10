@@ -53,7 +53,7 @@ project-root/
 
 ### Running the Application locally
 
-1. **Clone this repository**: ```[My Repo](https://github.com/messicode/CloudLLM/)```
+1. **Clone this repository**: [My Repo](https://github.com/messicode/CloudLLM/)
 
 2. **Navigate to the root directory**:
 ~~~
