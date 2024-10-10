@@ -1,6 +1,9 @@
 
 # Distributed Tokenization and Embeddings Generation with Hadoop
-## Created by: Yashvardhan Udia, yudia2@uic.edu
+## Created by: Yashvardhan Udia
+## Email: yudia2@uic.edu
+## NET ID: 656090513
+
 This Scala project implements a distributed system for tokenization and embeddings generation using Hadoop's MapReduce framework. 
 It processes huge text corpus to create tokens and subsequently generates word embeddings using advanced techniques (like sliding window).
 
@@ -56,8 +59,9 @@ project-root/
 ~~~
 cd /path/to/root/folder/
 ~~~
-3. **Build the Application**: ``` sbt clean compile assembly ```
-4. **Run the Application**: ```hadoop <Jar file name.jar> <Main class name>```
+3. **Update paths**: ```Update the corresponding paths in application.conf (Will be updated to input from command line arguments later on) ```
+4. **Build the Application**: ``` sbt clean compile assembly ```
+5. **Run the Application**: ```hadoop <Jar file name.jar> <Main class name>```
 
 ## Result
 
