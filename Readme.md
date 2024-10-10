@@ -1,5 +1,5 @@
 
-# Distributed Tokenization and Embeddings Generation with Hadoop
+# Distributed Tokenization and Embeddings Generation with Hadoop and AWS EMR
 ### Created by: Yashvardhan Udia
 ### Email: yudia2@uic.edu
 ### NET ID: 656090513
