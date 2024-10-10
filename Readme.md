@@ -4,8 +4,8 @@
 ### Email: yudia2@uic.edu
 ### NET ID: 656090513
 
-This Scala project implements a distributed system for tokenization and embeddings generation using Hadoop's MapReduce framework. 
-It processes huge text corpus to create tokens and subsequently generates word embeddings using advanced techniques (like sliding window).
+This Scala project implements a distributed system for tokenization and embeddings generation using Hadoop's MapReduce framework.
+It processes huge text corpus(from Project Gutenburg) to create tokens with frequencies and subsequently generates word embeddings using advanced techniques (like sliding window).
 
 ## Overview
 
