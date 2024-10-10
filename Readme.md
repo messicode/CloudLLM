@@ -61,7 +61,7 @@ cd /path/to/root/folder/
 ~~~
 3. **Update paths**: ```Update the corresponding paths in application.conf (Will be updated to input from command line arguments later on) ```
 4. **Build the Application**: ``` sbt clean compile assembly ```
-5. **Run Hadoop**: ```Use commands start-dfs.cmd and start-yarn.cmd to start hadoop processes.```
+5. **Run Hadoop**: ```Use commands ~~~ start-dfs.cmd ~~~ and ~~~ start-yarn.cmd ~~~ to start hadoop processes.```
 6. **Run the Application**: ```hadoop <Jar file name.jar> <Main class name>```
    
 NOTE: Make sure the output path does not exist.
