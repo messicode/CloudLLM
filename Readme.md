@@ -69,7 +69,7 @@ NOTE: Make sure the output path does not exist.
 
 ## Result
 
-A sample output of the default execution with a distributed system of 50 processes should look like this:
+A sample output for the tokenization should look like this:
 ```
 appoint, 11933	3
 appointed, 71216	4
@@ -78,6 +78,19 @@ appointments, 11933, 1392	2
 bears, 391, 15750, 291	1
 
 ```
+For the embeddings:
+```
+Token	Embedding																																																																																																			
+3305	-0.326765239	-0.063227907	-0.006134826	-0.598145783	0.42487523	-0.386558831	-1.039467812	0.606797338	0.660481393  ... 100 embeddings
+791	0.7912516	0.299544364	0.941945672	-0.766571105	0.176163837	0.292200118	0.327613533	0.482545078	0.073925711	-0.226988479	...  100 embeddings
+5907	0.115294464	-0.541093946	-0.160247117	-0.486180395	0.405101955	0.529536664	0.244080856	0.480882555	-0.473731011	... 100 embeddings
+52686	0.184256598	-0.366833448	0.159912243	-0.189438492	0.320423007	0.269936919	0.421694756	0.311885566	-0.804217994	... 100 embeddings
+58610	-0.464945167	0.01696438	0.293394834	0.460091263	-0.151001737	-0.205581665	-0.987886131	0.139263034	-0.232811913	... 100 embeddings
+315	-0.254555047	-0.19791688	-0.170502663	-0.073417582	0.264686793	0.641144693	0.489721864	0.196015283	-0.650536776 ... 100 embeddings
+```
+
+![image](https://github.com/user-attachments/assets/c9a3fafd-08f5-46ff-8e7b-8bc3d0b6101c)
+
 
 
 ## Contributing
